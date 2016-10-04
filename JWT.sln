@@ -4,13 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{513CE2B5-E0D6-43BC-998A-A02CB2875479}"
-ProjectSection(SolutionItems) = preProject
-	global.json = global.json
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JWT", "src\JWT\JWT.xproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JWT", "src\JWT\JWT.xproj", "{AC42B95C-6CF7-4AC8-8BAF-91BBAD616FBC}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JWT.Tests", "tests\JWT.Tests\JWT.Tests.xproj", "{00000000-0000-0000-0000-000000000000}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JWT.Tests", "tests\JWT.Tests\JWT.Tests.xproj", "{0D381E32-78BA-4D63-8E33-DD611140DD0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00000000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00000000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00000000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00000000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC42B95C-6CF7-4AC8-8BAF-91BBAD616FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC42B95C-6CF7-4AC8-8BAF-91BBAD616FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC42B95C-6CF7-4AC8-8BAF-91BBAD616FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC42B95C-6CF7-4AC8-8BAF-91BBAD616FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D381E32-78BA-4D63-8E33-DD611140DD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D381E32-78BA-4D63-8E33-DD611140DD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D381E32-78BA-4D63-8E33-DD611140DD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D381E32-78BA-4D63-8E33-DD611140DD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
